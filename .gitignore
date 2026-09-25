@@ -67,3 +67,9 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# CLion 和 CMake 的生成文件
+.idea/
+cmake-build-*/
+*.exe
+*.out
